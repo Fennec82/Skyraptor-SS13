@@ -6,17 +6,17 @@
 // EXPERIMENT_MY_COOL_FEATURE
 // - Does something really cool, just so neat, absolutely banging, gaming and chill
 
-*/ #if DM_VERSION < 515
+//#if DM_VERSION < 515
 
 	// You can't X-macro custom names :(
-	#ifdef EXPERIMENT_MY_COOL_FEATURE
-		#warn EXPERIMENT_MY_COOL_FEATURE is only available on 515+
-		#undef EXPERIMENT_MY_COOL_FEATURE
-	#endif
-#elif defined(UNIT_TESTS)
-	#define EXPERIMENT_MY_COOL_FEATURE
-#endif
+//	#ifdef EXPERIMENT_MY_COOL_FEATURE
+//		#warn EXPERIMENT_MY_COOL_FEATURE is only available on 515+
+//		#undef EXPERIMENT_MY_COOL_FEATURE
+//	#endif
+//#elif defined(UNIT_TESTS)
+//	#define EXPERIMENT_MY_COOL_FEATURE
+//#endif
 
-#if DM_VERSION >= 516
-	#error "Remove all 515 experiments"
-#endif /*
+//#if DM_VERSION >= 516
+//	#error "Remove all 515 experiments"
+//#endif /*
