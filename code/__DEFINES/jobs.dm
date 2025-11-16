@@ -48,11 +48,11 @@
 #define JOB_RESEARCH_DIRECTOR "Research Director"
 #define JOB_CHIEF_ENGINEER "Chief Engineer"
 #define JOB_CHIEF_MEDICAL_OFFICER "Chief Medical Officer"
-<<<<<<< HEAD
+//<<<<<<< HEAD
 =======
 #define JOB_BRIDGE_ASSISTANT "Bridge Assistant"
 #define JOB_VETERAN_ADVISOR "Veteran Security Advisor"
->>>>>>> 35242b4985d (NEW TRAIT ROLE: Veteran Advisor (#81667))
+//>>>>>>> 35242b4985d (NEW TRAIT ROLE: Veteran Advisor (#81667))
 //Silicon
 #define JOB_AI "AI"
 #define JOB_CYBORG "Cyborg"
@@ -129,7 +129,7 @@
 #define JOB_DISPLAY_ORDER_ASSISTANT 1
 #define JOB_DISPLAY_ORDER_CAPTAIN 2
 #define JOB_DISPLAY_ORDER_HEAD_OF_PERSONNEL 3
-<<<<<<< HEAD
+//<<<<<<< HEAD
 #define JOB_DISPLAY_ORDER_BARTENDER 4
 #define JOB_DISPLAY_ORDER_BOTANIST 5
 #define JOB_DISPLAY_ORDER_COOK 6
@@ -203,7 +203,7 @@
 #define JOB_DISPLAY_ORDER_DETECTIVE 38
 #define JOB_DISPLAY_ORDER_SECURITY_OFFICER 39
 #define JOB_DISPLAY_ORDER_PRISONER 40
->>>>>>> 35242b4985d (NEW TRAIT ROLE: Veteran Advisor (#81667))
+//>>>>>>> 35242b4985d (NEW TRAIT ROLE: Veteran Advisor (#81667))
 
 #define DEPARTMENT_UNASSIGNED "No Department"
 
@@ -287,13 +287,13 @@ DEFINE_BITFIELD(job_flags, list(
 
 /// Combination flag for jobs which are considered regular crew members of the station.
 #define STATION_JOB_FLAGS (JOB_ANNOUNCE_ARRIVAL|JOB_CREW_MANIFEST|JOB_EQUIP_RANK|JOB_CREW_MEMBER|JOB_NEW_PLAYER_JOINABLE|JOB_REOPEN_ON_ROUNDSTART_LOSS|JOB_ASSIGN_QUIRKS|JOB_CAN_BE_INTERN)
-<<<<<<< HEAD
+//<<<<<<< HEAD
 =======
 /// Combination flag for jobs which are considered heads of staff.
 #define HEAD_OF_STAFF_JOB_FLAGS (JOB_BOLD_SELECT_TEXT|JOB_CANNOT_OPEN_SLOTS|JOB_HEAD_OF_STAFF)
 /// Combination flag for jobs which are enabled by station traits.
 #define STATION_TRAIT_JOB_FLAGS (JOB_CANNOT_OPEN_SLOTS|JOB_HIDE_WHEN_EMPTY|JOB_LATEJOIN_ONLY&~JOB_REOPEN_ON_ROUNDSTART_LOSS)
->>>>>>> 2125aae0c48 (adds head of staff job flag (#80415))
+//>>>>>>> 2125aae0c48 (adds head of staff job flag (#80415))
 
 #define FACTION_NONE "None"
 #define FACTION_STATION "Station"
